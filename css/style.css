@@ -1,0 +1,101 @@
+body {
+	height: 2000px;
+}
+
+header {
+	background-color: #166C4B;
+	padding: 25px;
+
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1000;
+}
+
+.logo {
+	font-size: 35px;
+	vertical-align: middle;
+	margin-right: 30px;
+}
+
+nav {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+li {
+	display: inline-block;
+	margin-right: 25px;
+	font-size: 25px;
+}
+
+/* section 1 */
+
+h2 {
+	font-size: 30px;
+	margin-top: 85px;
+}
+
+.relative {
+	width: 500px;
+	height: 500px;
+	background-color: lightblue;
+	position: relative;
+	z-index: 1;
+}
+
+.absolute {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+}
+
+.absolute.red {
+	background-color: red;
+	top: 0;
+	right: 0;
+}
+.absolute.yellow {
+	background-color: yellow;
+	bottom: 0;
+	left: 0;
+}
+.absolute.green {
+	background-color: green;
+	bottom: 0;
+	right: 0;
+}
+
+.section-2 {
+	margin-bottom: 50px;
+}
+
+/* section 3  */
+
+.section-3 {
+	width: 1500px;
+	margin: auto;
+}
+
+.wrapper {
+	position: relative;
+	display: inline-block;
+	width: 600px;
+	height: 600px;
+}
+
+img {
+	position: absolute;
+}
+
+.text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	background-color: red;
+	width: 250px;
+	height: 250px;
+	transform: translate(-50%, -50%); 
+}
+
+
